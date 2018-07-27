@@ -1,0 +1,48 @@
+.header {
+    background-color: orange;
+    padding: 5px;
+    color: black;
+    width: 300px;
+    margin: 10px;
+    font-size: 36px;
+}
+
+.instructions {
+    background-color: moccasin;
+    padding: 10px;
+    color: green;
+    width: 400px;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.goal-number {
+    background-color: greenyellow;
+    padding: 40px;
+    color: black;
+    height: 80px;
+    font-size: 60px;
+}
+
+.wins-losses {
+    background-color: rgb(10, 231, 231);
+    padding: 40px;
+    color: black;
+    height: 80px;
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+}
+.total {
+    background-color: lightseagreen;
+    padding: 40px;
+    color: white;
+    height: 80px;
+    font-size: 60px;
+    width: 300px;
+
+}
